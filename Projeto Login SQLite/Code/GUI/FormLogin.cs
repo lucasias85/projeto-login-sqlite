@@ -16,5 +16,10 @@ namespace Projeto_Login_SQLite
         {
             InitializeComponent();
         }
+
+        private void buttonFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
