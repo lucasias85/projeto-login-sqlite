@@ -116,6 +116,7 @@ namespace Projeto_Login_SQLite
             this.buttonEntrar.TabIndex = 6;
             this.buttonEntrar.Text = "ENTRAR";
             this.buttonEntrar.UseVisualStyleBackColor = false;
+            this.buttonEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
             // 
             // buttonFechar
             // 
@@ -138,7 +139,6 @@ namespace Projeto_Login_SQLite
             this.labelErr.Name = "labelErr";
             this.labelErr.Size = new System.Drawing.Size(360, 25);
             this.labelErr.TabIndex = 8;
-            this.labelErr.Text = "Nome de usuário e/ou senha inválidos !!!";
             this.labelErr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormLogin

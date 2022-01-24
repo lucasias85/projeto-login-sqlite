@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Projeto_Login_SQLite.Code.DAL
 {
@@ -16,7 +12,7 @@ namespace Projeto_Login_SQLite.Code.DAL
         private SQLiteDataReader dataReader;
         private SQLiteCommandBuilder commandBuilder;
 
-        private string database = @"C:\Dev Projects\Dev SQL\db_cbiane.db";
+        private string database = @"C:\Dev Projects\Dev C#\Projeto Login SQLite\Projeto Login SQLite\data\database_files.db";
 
         public void Conectar()
         {
